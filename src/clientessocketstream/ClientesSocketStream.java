@@ -29,7 +29,7 @@ public class ClientesSocketStream {
             ObjectOutputStream dados = new ObjectOutputStream(cs.getOutputStream());
             
             System.out.println("Enviando mensaje");
-            
+            //Recogemos los numeros a calcular y el tipo de operación que deseemos
             num1 = Integer.parseInt(JOptionPane.showInputDialog("Introduzca primer número"));
             operacion = Integer.parseInt(JOptionPane.showInputDialog("Que operación desea realizar? \n 1= + \n 2= - \n 3= X \n 4= / "));
             num2 = Integer.parseInt(JOptionPane.showInputDialog("Introduzca segundo número"));
